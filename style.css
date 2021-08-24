@@ -1,0 +1,61 @@
+/* Corps */
+
+body
+  {
+      height: 40%;
+      font-size: 1rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,246,247,1) 0%, rgba(224,232,237,1) 21%, rgba(9,64,121,1) 88%); 
+      background-image: url(noir.jpg);
+  }
+
+  section
+  {
+      display: flex;
+      margin-bottom: 20px;
+  }
+
+  .carousel-item
+  {
+    justify-items: center;  
+  }
+
+  .carousel-item, p
+  {
+    justify-items: center;  
+    color: black;
+  }
+
+/* Naviagtion */
+
+nav
+{
+  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,246,247,1) 0%, rgba(224,232,237,1) 21%, rgba(9,64,121,1) 88%); 
+  background-image: url(noir.jpg);
+  color: white;
+}
+
+nav a
+  {
+      font-size: 1.3em;
+      color: white;
+      padding-bottom: 3px;
+      text-decoration: none;
+  }
+  
+.navbar-brand img
+  {
+      max-height: 40px;
+  }
+
+  @media screen and (max-widht: 375px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
