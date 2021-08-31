@@ -3,19 +3,21 @@
 body
   {
       height: 40%;
-      font-size: 1rem;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 18px;
+      font-family: 'Bai Jamjuree', sans-serif;
       margin: 0;
       padding: 0;
       background: rgb(2,0,36);
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,246,247,1) 0%, rgba(224,232,237,1) 21%, rgba(9,64,121,1) 88%); 
       background-image: url(noir.jpg);
+      color: white;
   }
 
-  section
+  section, p
   {
       display: flex;
       margin-bottom: 20px;
+      color: white;
   }
 
   .carousel-item
@@ -23,9 +25,13 @@ body
     justify-items: center;  
   }
 
-  .carousel-item, p
+  h1
   {
-    justify-items: center;  
+      text-align: center;
+  }
+
+  .card-text
+  {
     color: black;
   }
 
@@ -33,24 +39,16 @@ body
 
 nav
 {
-  background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,246,247,1) 0%, rgba(224,232,237,1) 21%, rgba(9,64,121,1) 88%); 
   background-image: url(noir.jpg);
-  color: white;
 }
 
 nav a
   {
-      font-size: 1.3em;
-      color: white;
+      font-size: 18px;
       padding-bottom: 3px;
       text-decoration: none;
   }
   
-.navbar-brand img
-  {
-      max-height: 40px;
-  }
 
   @media screen and (max-widht: 375px) {
     .column {
