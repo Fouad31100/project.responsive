@@ -35,6 +35,11 @@ body
     color: black;
   }
 
+  .navbar-brand img
+{
+    max-height: 50px;
+}
+
 /* Naviagtion */
 
 nav
